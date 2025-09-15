@@ -43,6 +43,6 @@ require("lazy").setup({
 			"netrwPlugin",
 		},
 	},
-	install = { colorscheme = { "melange" } },
+	install = { colorscheme = { "unokai" } },
 	checker = { enabled = true },
 })
