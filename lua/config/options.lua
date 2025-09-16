@@ -26,7 +26,7 @@ vim.opt.grepformat = "%f:%l:%c:%m" -- filename, line number, column, content
 -- Search Settings
 vim.opt.ignorecase = true -- Case-insensitive search
 vim.opt.smartcase = true -- Case-sensitive if uppercase in search
-vim.opt.hlsearch = false -- Don't highlight search results
+vim.opt.hlsearch = true -- Don't highlight search results
 vim.opt.incsearch = true -- Show matches as you type
 
 -- Visual Settings
@@ -83,6 +83,16 @@ vim.opt.encoding = "UTF-8" -- Use UTF-8 encoding
 vim.opt.wildmenu = true -- Enable command-line completion menu
 vim.opt.wildmode = "longest:full,full" -- Completion mode for command-line
 vim.opt.wildignorecase = true -- Case-insensitive tab completion in commands
+
+-- Cursor Settings
+vim.opt.guicursor = {
+	"n-v-c:block", -- Normal, Visual, Command-line
+	"i-ci-ve:ver25", -- Insert, Command-line Insert, Visual-exclusive
+  "r-cr:hor20", -- Replace, Command-line Replace
+	"o:hor50", -- Operator-pending
+	"a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor", -- All modes: blinking & highlight groups 
+	"sm:block-blinkwait175-blinkoff150-blinkon175", -- Showmatch mode
+}
 
 -- Folding Settings
 vim.opt.foldmethod = "expr" -- Use expression for folding
