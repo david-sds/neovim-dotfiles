@@ -1,6 +1,7 @@
 {
   "fzf-lua": { "branch": "main", "commit": "1a8b4246538f2b9c3c3debb460262f549fd7b428" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
+  "lualine.nvim": { "branch": "master", "commit": "b8c23159c0161f4b89196f74ee3a6d02cdc3a955" },
   "mini.ai": { "branch": "main", "commit": "e139eb1101beb0250fea322f8c07a42f0f175688" },
   "mini.bufremove": { "branch": "main", "commit": "66019ecebdc5bc0759e04747586994e2e3f98416" },
   "mini.comment": { "branch": "main", "commit": "fb867a9246f9b892cf51a8c84a3f8479cdf1558c" },
@@ -13,5 +14,6 @@
   "mini.trailspace": { "branch": "main", "commit": "39a0460c025a605519fdd6bea1ce870642429996" },
   "monokai-nightasty.nvim": { "branch": "main", "commit": "8182c45dcaf82e7316cfda6d439ee8ad783ae594" },
   "nvim-tree.lua": { "branch": "master", "commit": "e179ad2f83b5955ab0af653069a493a1828c2697" },
+  "nvim-treesitter": { "branch": "master", "commit": "42fc28ba918343ebfd5565147a42a26580579482" },
   "nvim-web-devicons": { "branch": "master", "commit": "6e51ca170563330e063720449c21f43e27ca0bc1" }
 }
