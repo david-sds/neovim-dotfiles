@@ -1,4 +1,5 @@
 {
+  "fzf-lua": { "branch": "main", "commit": "1a8b4246538f2b9c3c3debb460262f549fd7b428" },
   "lazy.nvim": { "branch": "main", "commit": "6c3bda4aca61a13a9c63f1c1d1b16b9d3be90d7a" },
   "mini.ai": { "branch": "main", "commit": "e139eb1101beb0250fea322f8c07a42f0f175688" },
   "mini.bufremove": { "branch": "main", "commit": "66019ecebdc5bc0759e04747586994e2e3f98416" },
