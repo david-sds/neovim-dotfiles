@@ -7,9 +7,6 @@ local diagnostic_signs = {
 	Info = "",
 }
 
-
-
-
 M.setup = function()
 	vim.diagnostic.config({
 		signs = {
