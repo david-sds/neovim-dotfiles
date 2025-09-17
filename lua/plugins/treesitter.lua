@@ -27,7 +27,7 @@ return {
 				"typescript",
 				"vue",
 				"yaml",
-        "dart",
+				"dart",
 			},
 			auto_install = true, -- auto-install any other parsers on opening new language files
 			sync_install = false,
